@@ -213,12 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = HSG7HYP8HA;
+						DevelopmentTeam = RVFYZVJFE8;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = HSG7HYP8HA;
+						DevelopmentTeam = RVFYZVJFE8;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -519,7 +519,7 @@
 			baseConfigurationReference = AAA0C2C9EB20E7D0166409F9 /* Pods-ZTGestureEventView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HSG7HYP8HA;
+				DEVELOPMENT_TEAM = RVFYZVJFE8;
 				INFOPLIST_FILE = ZTGestureEventView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -536,7 +536,7 @@
 			baseConfigurationReference = F586D88D6223870ACBB20D99 /* Pods-ZTGestureEventView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HSG7HYP8HA;
+				DEVELOPMENT_TEAM = RVFYZVJFE8;
 				INFOPLIST_FILE = ZTGestureEventView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -553,7 +553,7 @@
 			baseConfigurationReference = 1802543D4BB0A1B97E0190EC /* Pods-ZTGestureEventView_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				DEVELOPMENT_TEAM = HSG7HYP8HA;
+				DEVELOPMENT_TEAM = RVFYZVJFE8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -577,7 +577,7 @@
 			baseConfigurationReference = A1CAED8A5CF9DAF5C90E6E9E /* Pods-ZTGestureEventView_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				DEVELOPMENT_TEAM = HSG7HYP8HA;
+				DEVELOPMENT_TEAM = RVFYZVJFE8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

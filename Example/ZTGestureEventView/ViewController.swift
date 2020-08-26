@@ -15,9 +15,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let event = ZTGestureEventView(frame: view.bounds)
-
+        let event = ZTGestureEventView()
+        event.frame = view.bounds
+        event.backgroundColor = .purple
+        view.addSubview(event)
         
+        event.touchesSingleTapAction = { point in
+            print(point)
+        }
     }
 
     override func didReceiveMemoryWarning() {
