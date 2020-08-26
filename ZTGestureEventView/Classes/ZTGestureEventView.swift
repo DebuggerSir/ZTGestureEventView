@@ -6,9 +6,8 @@
 //
 
 import UIKit
-import MediaPlayer
 
-class ZTGestureEventView: UIView {
+open class ZTGestureEventView: UIView {
     /// 避免手指开屏幕后抖动造成的影响
     private let offsetPix:CGFloat = 0
     private (set) var direction:PanDirecrion = .none

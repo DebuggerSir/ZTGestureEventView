@@ -2,7 +2,8 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'ZTGestureEventView_Example' do
-  pod 'ZTGestureEventView', :path => '../'
+#  pod 'ZTGestureEventView', :path => '../'
+pod 'ZTGestureEventView', :podspec => '../ZTGestureEventView.podspec'
 
   target 'ZTGestureEventView_Tests' do
     inherit! :search_paths

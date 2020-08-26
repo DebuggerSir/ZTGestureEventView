@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTGestureEventView'
-  s.version          = '0.1.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of ZTGestureEventView.'
 
 # This description is used to generate tags and improve search results.
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "自定义view的手势识别"
 
-  s.homepage         = 'https://github.com/SkyerWalker/ZTGestureEventView'
+  s.homepage         = 'https://github.com/DebuggerSir/ZTGestureEventView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'SkyerWalker' => '18042691912@163.com' }
-  s.source           = { :git => 'https://github.com/SkyerWalker/ZTGestureEventView.git', :tag => s.version.to_s }
+  s.author           = { 'DebuggerSir' => '18042691912@163.com' }
+  s.source           = { :git => 'https://github.com/DebuggerSir/ZTGestureEventView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +35,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
